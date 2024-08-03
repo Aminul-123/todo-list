@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+ 
+
+}
+main {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  height: auto;
+  width: 30vw;
+  border: 1px solid rgb(201, 168, 201);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 8px;
+}
+form {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+textarea {
+  margin: 1rem;
+}
